@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+/*
+ * @Author: your name
+ * @Date: 2020-11-15 23:06:17
+ * @LastEditTime: 2020-11-16 00:04:50
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \Yixiu1996\react\react-antd-admin\src\App.js
+ */
+import './App.css'
+import { Button } from 'antd'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Button type="primary">111</Button>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
